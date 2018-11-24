@@ -1,0 +1,94 @@
+html {font-family: "Helvetica", sans-serif;}
+
+body {min-width: 800px;
+      max-width: 800px;
+      margin: 0em auto;
+      text-align: left;
+      hyphens: auto;
+      -moz-hyphens: auto;
+     }
+
+@viewport {
+  width: device-width ;
+  zoom: 2.0 ;
+}
+
+h1, h2, h3, h4{letter-spacing: .125em; font-weight: 600; }
+h1 {font-size: 24px; line-height: 1; margin: 1.5em 0 .5em 0;
+    margin-bottom: 2em; text-align: center;
+   }
+h2 {font-size: 16px; line-height: 1.125; margin: 1em 0 .25em 0; clear: both;}
+h3 {font-size: 14px; line-height: 1.286; margin: 1em 0 .2em 0; clear: both;}
+h4 {font-size: 12px; line-height: 1.4; margin: 1em 0 .175em 0;
+    clear: both;}
+
+
+p, li, blockquote {
+    font-size: 15px; line-height: 1.2;
+    text-align: justify; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;
+    margin: .5em;
+}
+
+figcaption {font-size: 14px; line-height: 1.1;}
+
+header {margin: 2em 0 2em 0; height: 60px;}
+header h1 {margin: .5em 0 0 0; font-size: 16pt;}
+header p {font-size: 14pt; margin: .5em 0 0 0;}
+header img {float: left; width: 20%; margin: -3em 2em 0 0;}
+
+ul {padding-left: 1em;}
+a {color: #2A6496; text-decoration: none}
+a:hover {text-decoration: underline; color: #295785}
+
+content {
+    -webkit-column-width: 800px;
+    -moz-column-width: 800px;
+    column-width: 800px;
+}
+
+img {
+    max-width: 800px;
+    min-width: 800px;
+}
+
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+}
+#col1 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+}
+
+
+.milestone {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#motto {
+    font-style: italic;
+}
+
+#motto p {
+    font-size: 10pt;
+}
